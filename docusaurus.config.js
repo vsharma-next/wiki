@@ -34,12 +34,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+	  routeBasePath: '/', 
           // Please change this to your repo.
         },
-        blog: {
-          showReadingTime: true,
+        blog: false, //{
+//          showReadingTime: true,
           // Please change this to your repo.
-         },
+//         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
