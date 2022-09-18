@@ -59,12 +59,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
             href: 'https://github.com/vsharma-next/wiki',
             label: 'GitHub',
             position: 'right',
