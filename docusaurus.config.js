@@ -34,12 +34,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+	  routeBasePath: '/', 
           // Please change this to your repo.
         },
-        blog: {
-          showReadingTime: true,
+        blog: false, //{
+//          showReadingTime: true,
           // Please change this to your repo.
-         },
+//         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -57,13 +58,6 @@ const config = {
           src: 'img/lion.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/vsharma-next/wiki',
             label: 'GitHub',
