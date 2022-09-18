@@ -56,6 +56,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/lion.svg',
+	  srcDark: 'img/lion_darkmode.svg',
         },
         items: [
           {
